@@ -1,6 +1,6 @@
-package br.com.betflow.aposta.infra.persistence;
+package br.com.betflow.evento.infra.persistence;
 
-import br.com.betflow.aposta.infra.enuns.TipoEvento;
+import br.com.betflow.evento.infra.enuns.TipoEvento;
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Column;

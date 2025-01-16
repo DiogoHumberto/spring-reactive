@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.betflow</groupId>
-	<artifactId>aposta</artifactId>
+	<artifactId>api-evento</artifactId>
 	<version>0.0.1</version>
-	<name>aposta</name>
-	<description>Demo project for Spring Boot</description>
+	<name>evento</name>
+	<description>Demo project for Spring Boot use reactive</description>
 	<url/>
 	<licenses>
 		<license/>

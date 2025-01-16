@@ -1,7 +1,7 @@
-package br.com.betflow.aposta.infra.controller.dto;
+package br.com.betflow.evento.infra.controller.dto;
 
-import br.com.betflow.aposta.infra.enuns.TipoEvento;
-import br.com.betflow.aposta.infra.persistence.EventoEntity;
+import br.com.betflow.evento.infra.enuns.TipoEvento;
+import br.com.betflow.evento.infra.persistence.EventoEntity;
 
 import java.time.LocalDate;
 

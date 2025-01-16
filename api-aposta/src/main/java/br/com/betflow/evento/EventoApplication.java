@@ -1,13 +1,13 @@
-package br.com.betflow.aposta;
+package br.com.betflow.evento;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApostaApplication {
+public class EventoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApostaApplication.class, args);
+		SpringApplication.run(EventoApplication.class, args);
 	}
 
 }

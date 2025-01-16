@@ -1,10 +1,10 @@
-package br.com.betflow.aposta;
+package br.com.betflow.evento;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApostaApplicationTests {
+class EventoApplicationTests {
 
 	@Test
 	void contextLoads() {

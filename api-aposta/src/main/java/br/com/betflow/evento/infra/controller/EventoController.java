@@ -1,9 +1,7 @@
-package br.com.betflow.aposta.infra.controller;
+package br.com.betflow.evento.infra.controller;
 
-import br.com.betflow.aposta.infra.controller.dto.EventoDto;
-import br.com.betflow.aposta.infra.enuns.TipoEvento;
-import br.com.betflow.aposta.infra.service.EventoService;
-import lombok.RequiredArgsConstructor;
+import br.com.betflow.evento.infra.controller.dto.EventoDto;
+import br.com.betflow.evento.infra.service.EventoService;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;

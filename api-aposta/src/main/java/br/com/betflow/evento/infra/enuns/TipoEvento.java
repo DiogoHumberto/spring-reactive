@@ -1,4 +1,4 @@
-package br.com.betflow.aposta.infra.enuns;
+package br.com.betflow.evento.infra.enuns;
 
 public enum TipoEvento {
 

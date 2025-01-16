@@ -1,8 +1,8 @@
-package br.com.betflow.aposta.infra.service;
+package br.com.betflow.evento.infra.service;
 
-import br.com.betflow.aposta.infra.controller.dto.EventoDto;
-import br.com.betflow.aposta.infra.enuns.TipoEvento;
-import br.com.betflow.aposta.infra.persistence.EventoRepository;
+import br.com.betflow.evento.infra.controller.dto.EventoDto;
+import br.com.betflow.evento.infra.enuns.TipoEvento;
+import br.com.betflow.evento.infra.persistence.EventoRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

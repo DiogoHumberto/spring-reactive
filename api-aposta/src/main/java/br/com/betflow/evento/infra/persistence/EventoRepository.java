@@ -1,6 +1,6 @@
-package br.com.betflow.aposta.infra.persistence;
+package br.com.betflow.evento.infra.persistence;
 
-import br.com.betflow.aposta.infra.enuns.TipoEvento;
+import br.com.betflow.evento.infra.enuns.TipoEvento;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 import reactor.core.publisher.Flux;
 

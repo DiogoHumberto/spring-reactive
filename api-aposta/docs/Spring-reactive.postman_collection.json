@@ -1,0 +1,187 @@
+{
+	"info": {
+		"_postman_id": "821c9c56-5f36-47cb-94da-a7546c159e82",
+		"name": "Spring-reactive",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28237617"
+	},
+	"item": [
+		{
+			"name": "findAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/evento",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"evento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/evento/:id",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"evento",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "8"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sse - findCategoria",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/evento/categoria/:tipo",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"evento",
+						"categoria",
+						":tipo"
+					],
+					"variable": [
+						{
+							"key": "tipo",
+							"value": "show"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "save",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"tipo\": \"SHOW\", \r\n  \"nome\": \"Conferência de Tecnologia\",\r\n  \"data\": \"2025-01-15\",\r\n  \"descricao\": \"Evento sobre as últimas tendências em tecnologia\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/evento",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"evento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "alter",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"tipo\": \"SHOW\", \r\n  \"nome\": \"Conferência de Tecnologia\",\r\n  \"data\": \"2025-01-15\",\r\n  \"descricao\": \"Evento sobre as últimas tendências em tecnologia\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/evento",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"evento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/evento/:id",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"evento",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "http://localhost:8080",
+			"type": "string"
+		}
+	]
+}
